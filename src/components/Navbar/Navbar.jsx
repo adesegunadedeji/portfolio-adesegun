@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Navbar} from 'react-bootstrap'
-function Navbar () {
+function NavbarComponent () {
     return (
     <div className = "Navbar_Container">
         <Navbar bg="dark" variant="dark">
@@ -13,4 +13,4 @@ function Navbar () {
     
     )}
 
-export default Navbar
+export default NavbarComponent
