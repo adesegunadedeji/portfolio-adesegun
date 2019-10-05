@@ -6,6 +6,7 @@ import {Route, Switch, Redirect} from 'react-router-dom'
 import NavbarComponent from './components/NavBar/Navbar'
 import FooterComponent from './components/Footer/Footer'
 import Projects from './components/Projects/Projects';
+import Landing from './components/Landing'
 import Resume from './components/Resume';
 import {Row,Col} from 'react-bootstrap'
 function App() {
@@ -18,16 +19,10 @@ function App() {
        < Route path ='/projects' component ={Projects}/>
        < Route path ='/resume' component ={Resume}/>
        < Route path ='/contact' component ={Contact}/> 
+       < Route path ='/' component ={Landing}/> 
         <Redirect to='/'/>
        </Switch>
        </main>
-       <div className="LandingPage" style={{width:'100%',margin: 'auto'}}>
-                {/* Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop */}
-                <Row>
-                <img className ="avatar-img" src="https://i.ibb.co/m4GPBy3/my-Avatar-1.png" alt="avatar"/>
-    
-                </Row>
-            </div>
       <FooterComponent/>
     </div>
   );
