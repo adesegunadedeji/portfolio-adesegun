@@ -11,3 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+span.myButton{
+  padding: 4px 4px 9px 3px;
+}
+
+.myButton {
+  border-radius: 8px;
+  border-style: double;
+  border-width: thin;
+  margin: 0.25em;
+  padding: 5px 3px 5px 3px;
+}
+
+.outbound{
+  color: black;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+.header{
+  margin-left: 4em;
+  margin-top: 6em;
+  float: left;
+}
+
+  h1 {
+    font-family: 'McLaren', cursive;
+    font-size: 4em;
+    text-align: right;
+    line-height: 100%;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    width: 5em;
+}
+
+.menu {
+  float: left;
+  margin-left: 1em;
+  margin-top: 18px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.aTagLinks{
+  font-family: 'McLaren', cursive;
+  font-size: 1.15em
+}
+.aTagLinks:link{
+  text-decoration: none;
+  color: #AA0000;
+}
+
+.aTagLinks:visited{
+  text-decoration: none;
+  color:#888888;
+}
+
+@media only screen and (max-width: 40em){
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+    line-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.header {
+    float: none;
+    margin-left: 0;
+    margin-top: 2em;
+}
+li{
+  text-align: center;
+}
+
+.menu {
+  float: none;
+  margin-left: 0em;
+  margin-top: 2em;
+}
+.links {
+  margin: 2em auto 0 auto;
+}
+}
+
+@media only screen and (max-width: 40em){
+body {
+    margin: 0
+  }
+}
+
+/* Small screens */
+@media only screen {
+}
