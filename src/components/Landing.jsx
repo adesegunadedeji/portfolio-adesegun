@@ -8,18 +8,21 @@ import { FaLinkedin, FaTwitter, FaInstagram, FaMedium, FaGithub} from 'react-ico
                 <span>Adesegun Adedeji</span>
                 </h1>
             </div>
-            <div className="Menu">
+           
+           
+                <div className="icons">
+                <div className="Menu">
                 <nav>
                     <ul>
-                        <li><a className="aTagLinks" href ="https://adeadedeji.com/resume">technology Leader</a></li>
-                        <li><a  className="aTagLinks" href ="https://adeadedeji.com//writer">writer</a></li>
-                        <li><a  className="aTagLinks" href ="https://adeadedeji.com//about">football Fan</a></li>
-                        <li><a  className="aTagLinks" href ="https://adeadedeji.com//projects">projects</a></li>
-                        <li><a  className="aTagLinks" href ="https://adeadedeji.com//contact">contact</a></li>
+                        <li><a className="aTagLinks" href ="/resume">technology Leader</a></li>
+                        <li><a  className="aTagLinks" href ="/writer">writer</a></li>
+                        <li><a  className="aTagLinks" href ="/about">football Fan</a></li>
+                        <li><a  className="aTagLinks" href ="/projects">projects</a></li>
+                        <li><a  className="aTagLinks" href ="/contact">contact</a></li>
                         {/* <a href="https://twitter.com/intent/tweet?screen_name=ade_segun&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @ade_segun</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> */}
                     </ul>
                 </nav>
-                <div className="icons">
+                </div>
                     <span className = "myButton">
                         <a className ="outbound" rel ="me" itemProp ="url" href ="https://twitter.com/Ade_Segun" >
                          <FaTwitter alt ="Twitter"/>
@@ -46,8 +49,8 @@ import { FaLinkedin, FaTwitter, FaInstagram, FaMedium, FaGithub} from 'react-ico
                         </a>
                     </span>
                 </div>
-            </div>
-                  </div>
+                </div>
+    
         )
 }
 export default Landing

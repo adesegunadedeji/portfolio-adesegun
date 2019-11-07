@@ -36,6 +36,9 @@ span.myButton{
   float: left;
 }
 
+nav{
+  display: inline-block;
+}
   h1 {
     font-family: 'McLaren', cursive;
     font-size: 4em;
@@ -45,14 +48,15 @@ span.myButton{
     margin-top: 0em;
     width: 5em;
 }
-.icons{
+/* .icons{
   margin: 2em;
-}
+  display: inline-block;
+} */
 
-.menu {
-  float: left;
+.icons{
   margin-left: 1em;
-  margin-top: 18px;
+  margin-top: 6.2em;
+  float: left;
 }
 ul{
   list-style-type: none;
