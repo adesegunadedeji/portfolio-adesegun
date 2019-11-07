@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
-import {Route, Switch, Redirect} from 'react-router-dom'
+import {Route, Switch, Redirect,BrowserRouter} from 'react-router-dom'
 import Projects from './components/Projects/Projects';
 import Landing from './components/Landing'
 import Resume from './components/Resume';
 function App() {
   return (
     <div className="App">
-      <main>
+      <BrowserRouter>
         <Switch>
        < Route exact path ='/about' component ={About}/>
        < Route  exact path ='/projects' component ={Projects}/>
@@ -18,7 +18,7 @@ function App() {
        < Route  exact path ='/' component ={Landing}/> 
         <Redirect to='/'/>
        </Switch>
-       </main>
+       </BrowserRouter>
     </div>
   );
 }
