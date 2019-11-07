@@ -45,6 +45,9 @@ span.myButton{
     margin-top: 0em;
     width: 5em;
 }
+.icons{
+  margin: 2em;
+}
 
 .menu {
   float: left;
@@ -103,6 +106,10 @@ li{
 body {
     margin: 0
   }
+  .icons{
+    align-self: center;
+  }
+  
 }
 
 /* Small screens */
