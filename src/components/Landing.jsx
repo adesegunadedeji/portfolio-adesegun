@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaLinkedin, FaTwitter, FaInstagram, FaMedium, FaGithub} from 'react-icons/fa'
+import Resume from './Resume'
  function Landing(){
         return (
             <div className ="landingPage">
@@ -14,12 +15,11 @@ import { FaLinkedin, FaTwitter, FaInstagram, FaMedium, FaGithub} from 'react-ico
                 <div className="Menu">
                 <nav>
                     <ul>
-                        <li><a className="aTagLinks" href ="/resume">technology Leader</a></li>
+                        <li><a className="aTagLinks" href = {Resume}>Resume</a></li>
                         <li><a  className="aTagLinks" href ="/writer">writer</a></li>
                         <li><a  className="aTagLinks" href ="/about">football Fan</a></li>
                         <li><a  className="aTagLinks" href ="/projects">projects</a></li>
                         <li><a  className="aTagLinks" href ="/contact">contact</a></li>
-                        <li><a  className="aTagLinks" href ="/resume">Resume</a></li>
                         {/* <a href="https://twitter.com/intent/tweet?screen_name=ade_segun&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @ade_segun</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> */}
                     </ul>
                 </nav>
