@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaLinkedin, FaTwitter, FaInstagram, FaMedium, FaGithub} from 'react-icons/fa'
-import Resume from './Resume'
  function Landing(){
         return (
             <div className ="landingPage">
@@ -15,7 +14,7 @@ import Resume from './Resume'
                 <div className="Menu">
                 <nav>
                     <ul>
-                        <li><a className="aTagLinks" href = {Resume}>Resume</a></li>
+                        <li><a className="aTagLinks" href ="/resume">resume</a></li>
                         <li><a  className="aTagLinks" href ="/writer">writer</a></li>
                         <li><a  className="aTagLinks" href ="/about">football Fan</a></li>
                         <li><a  className="aTagLinks" href ="/projects">projects</a></li>
