@@ -39,7 +39,7 @@ span.myButton{
 nav{
   display: inline-block;
 }
-  h1 {
+  .headerLanding {
     font-family: 'McLaren', cursive;
     font-size: 4em;
     text-align: right;
@@ -53,18 +53,30 @@ nav{
   display: inline-block;
 } */
 
+.contact-info{
+  margin-bottom: 4em;
+  margin-left: 2em;
+}
 .icons{
   margin-left: 1em;
   margin-top: 6.2em;
   float: left;
 }
+body{
+  background-color: #EAEAEA;
+}
+
 ul{
+  display: block;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
-.aTagLinks{
+.contactLogo{
+  width: 64px;
+  height: 72px;
+}
+.aTagLinks,.ContactInfolist{
   font-family: 'McLaren', cursive;
   font-size: 1.15em
 }
@@ -118,4 +130,28 @@ body {
 
 /* Small screens */
 @media only screen {
+}
+.Footerdiv{
+  background-color: #00828F;
+  position: absolute;
+  bottom: 0;
+  width:  100%;
+}
+.third{
+  width: 33.33333%;
+  float: left;
+}
+.centerNav{
+  margin-right: auto;
+  margin-left: auto;
+}
+.textNav{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: .875rem;
+
+}
+a.f6{
+  opacity: 1;
+  color: black;
 }

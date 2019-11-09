@@ -6,6 +6,7 @@ import {Route, Switch, BrowserRouter as Router} from 'react-router-dom'
 import Projects from './components/Projects/Projects';
 import Landing from './components/Landing'
 import Resume from './components/Resume';
+import FooterComponent from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
        <Route  exact path ='/' component ={Landing}/> 
        </Switch>
        </Router>
+       <FooterComponent/>
     </div>
   );
 }

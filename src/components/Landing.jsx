@@ -5,19 +5,17 @@ import {Link} from 'react-router-dom'
         return (
             <div className ="landingPage">
             <div className ="header">
-                <h1>
+                <h1 className="headerLanding">
                 <span>Adesegun Adedeji</span>
+
                 </h1>
             </div>
-           
-           
                 <div className="icons">
                 <div className="Menu">
                 <nav>
-                    <ul>
-                                     
+                    <ul> 
                         <li><Link className="aTagLinks" to="/resume">resume</Link></li>
-                        <li><Link className="aTagLinks" to="/contact">contacts</Link></li>
+                        <li><Link className="aTagLinks" to="/contact">contact</Link></li>
                         <li><Link className="aTagLinks" to="/thetacklespot">football fan</Link></li>
                         <li><Link className="aTagLinks" to="/projects">projects</Link></li>
                         {/* <a href="https://twitter.com/intent/tweet?screen_name=ade_segun&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @ade_segun</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> */}
