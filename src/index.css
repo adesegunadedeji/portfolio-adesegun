@@ -135,6 +135,7 @@ body {
   background-color: #00828F;
   position: absolute;
   bottom: 0;
+  height: 50px;
   width:  100%;
 }
 .third{
@@ -154,4 +155,17 @@ body {
 a.f6{
   opacity: 1;
   color: black;
+}
+@media screen and (min-width: 30em){ 
+.w-50-ns {
+    width: 50%;
+}
+
+}
+
+
+@media screen and (min-width: 30em){ 
+.db-ns {
+    display: block;
+}
 }
