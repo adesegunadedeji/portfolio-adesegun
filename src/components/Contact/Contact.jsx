@@ -1,13 +1,10 @@
 import React from 'react'
 import {FaMapMarker,FaPhoneSquare, FaEnvelope,FaHome} from 'react-icons/fa'
-
+import NavbarComponent from '../NavBar/Navbar'
 function Contact (){
     return (
-        <div className = "AboutSection">
-
-            <div className="content">
-            <img className ="contactLogo"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUCKL3oCYQrsdy77tT-kin6B1bSC4kqViLwJRqFzMqaCWkEkM6&s" alt="contactLogo"/>
-            </div>
+        <div className = "ContactSection">
+             <NavbarComponent/>
             <h3> My Address</h3>
             <ul className="contact-info">
                 <li className="ContactInfolist"><FaMapMarker/> Woodbridge, NJ</li>

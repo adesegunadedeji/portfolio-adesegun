@@ -1,43 +1,19 @@
-import React, {Component} from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-
- class NavbarComponent extends Component {
-  constructor(props) {
-    super(props);
-
-    this.toggleNavbar = this.toggleNavbar.bind(this);
-    this.state = {
-      collapsed: true
-    };
-  }
-
-  toggleNavbar() {
-    this.setState({
-      collapsed: !this.state.collapsed
-    });
-  }
-  render() {
-    return (
-      <div>
-        <Navbar color="faded" light>
-          <NavbarBrand href="/" className="mr-auto">A|A</NavbarBrand>
-          <NavbarToggler onClick={this.toggleNavbar} className="mr-2"/>
-          <Collapse isOpen={!this.state.collapsed} navbar>
-            <Nav navbar>
-              <NavItem>
-                <NavLink href="/about/">About</NavLink>
-                <NavLink href="/projects/">Projects</NavLink>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-                <NavLink href="https://medium.com/@adesegunadedeji">Blog</NavLink>
-                <NavLink href="/contact/">Contact</NavLink>
-              </NavItem>
-              <NavItem>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </div>
-    );
-  }
+import React from 'react'
+function NavbarComponent (){
+        return (
+            <div className = "Navbardiv">
+              <nav className="w-100 centerNav textNav w-50-ns">
+                <div className="third">
+                <a  className="f6" href = "/">home</a>
+                </div>
+                <div className="third">
+                <a  className="f6" href = "/projects">portfolio</a>
+                </div>
+                <div className="third">
+                <a  className="f6" href = "/contact">contact</a>
+                </div>
+                </nav>
+            </div>
+        )
 }
 export default NavbarComponent

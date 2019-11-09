@@ -47,6 +47,7 @@ nav{
     margin-bottom: 0em;
     margin-top: 0em;
     width: 5em;
+    color: #95824d;
 }
 /* .icons{
   margin: 2em;
@@ -91,7 +92,7 @@ ul{
 }
 
 @media only screen and (max-width: 40em){
-  h1 {
+  headerLanding {
     font-size: 2.5em;
     text-align: center;
     line-height: 100%;
@@ -138,6 +139,9 @@ body {
   height: 50px;
   width:  100%;
 }
+.Navbardiv{
+  width:  100%;
+}
 .third{
   width: 33.33333%;
   float: left;
@@ -168,4 +172,25 @@ a.f6{
 .db-ns {
     display: block;
 }
+}
+
+h3{
+  font-family: 'McLaren', cursive;
+  color: #95824d;
+}
+
+.header-bar {
+align-content: center;
+  margin: 25px 0 25px 0;
+  width: 100%;
+  height: 4px;
+  background: #444649;
+
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.portfolio-header{
+ text-align: center;
 }
