@@ -10,7 +10,7 @@ function FooterComponent (){
                 <a  className="f6" href = "/projects">portfolio</a>
                 </div>
                 <div className="third">
-                <a  className="f6" href = "/contact">contact</a>
+                <a  className="f6" href = "/about">contact</a>
                 </div>
                
                 </nav>

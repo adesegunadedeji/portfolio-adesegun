@@ -49,7 +49,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {MeowWoofImage}  className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>MEOWWOOF RESCUE</CardTitle>
-                    <Button formaction="https://meowwoof-deployed-app.herokuapp.com/">VISIT</Button>
+                    <Button className="PortfolioButton" formaction="https://meowwoof-deployed-app.herokuapp.com/">VISIT</Button>
                     </CardBody>
                     </Card>
                     </Col> 
@@ -58,7 +58,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Afroleague} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>AFRO LEAGUE</CardTitle>
-                    <Button formaction="https://afroleagueapp.herokuapp.com/">VISIT</Button>
+                    <Button  className="PortfolioButton" formaction="https://afroleagueapp.herokuapp.com/">VISIT</Button>
                     </CardBody>
                     </Card>
                     </Col>
@@ -67,7 +67,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Vicinage} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>VICINAGE</CardTitle>
-                    <Button formaction="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Button>
+                    <Button className="PortfolioButton" formaction="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Button>
                     </CardBody>
                     </Card>
                     </Col>
@@ -76,7 +76,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Xapa} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>Xapa</CardTitle>
-                    <Button formaction="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Button>
+                    <Button className="PortfolioButton" formaction="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Button>
                     </CardBody>
                     </Card>
                     </Col>
@@ -90,7 +90,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {MeowWoofImage}  className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>MEOWWOOF RESCUE</CardTitle>
-                    <Button formaction="https://meowwoof-deployed-app.herokuapp.com/">VISIT</Button>
+                    <Button className="PortfolioButton" formaction="https://meowwoof-deployed-app.herokuapp.com/">VISIT</Button>
                     </CardBody>
                     </Card>
                     </Col> 
@@ -99,7 +99,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Afroleague} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>VICINAGE</CardTitle>
-                    <Button formaction="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Button>
+                    <Button className="PortfolioButton" formaction="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Button>
                     </CardBody>
                     </Card>
                     </Col>
@@ -112,7 +112,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Afroleague} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>AFRO LEAGUE</CardTitle>
-                    <Button formaction="https://afroleagueapp.herokuapp.com/">VISIT</Button>
+                    <Button className="PortfolioButton" formaction="https://afroleagueapp.herokuapp.com/">VISIT</Button>
                     </CardBody>
                     </Card>
                     </Col>
@@ -121,8 +121,8 @@ const Projects = (props) => {
                 <Card>
                 <CardBody>
                     <CardImg src= {Xapa} className = "PortfolioImage" alt="Card image cap" />
-                    <CardTitle>Xapa</CardTitle>
-                    <Button formaction="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Button>
+                    <CardTitle>XAPA</CardTitle>
+                    <Button className="PortfolioButton" formaction="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Button>
                     </CardBody>
                     </Card>
                     </Col>
