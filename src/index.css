@@ -194,3 +194,11 @@ align-content: center;
 .portfolio-header{
  text-align: center;
 }
+
+.PortfolioImage{
+  width: 200px;
+  height:200px;
+}
+.nav-tabs{
+  background-color: #00828F;
+}
