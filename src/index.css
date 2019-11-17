@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-color: blanchedalmond;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -16,7 +15,6 @@ code {
 span.myButton{
   padding: 4px 4px 9px 3px;
 }
-
 .myButton {
   border-radius: 8px;
   border-style: double;
