@@ -4,9 +4,8 @@ import {FaMapMarker, FaEnvelope, FaTwitter, FaInstagram, FaLinkedin, FaGithub} f
 function About (){
     return (
         <div className = "AboutSection">
-       <img src = {PictureAdesegun} className="AboutImage"/>
+       <img src = {PictureAdesegun} className="AboutImage" alt ="ProfileImage"/>
         <hr class="style18"></hr>
-
         <p className="contacttext">I'm a Mission-Driven Full Stack Developer currently based in the NJ/NYC Area. I love programming, travelling, playing soccer and cooking. I always seeking out opportunities and challenges that are meaningful to me and help solve problems.
             I enjoy using my attention to detail and love for creating thoughtful ideas into products that can literally change the world. I'm very excited to start this journey. </p>
             <div className = "ContactSection">

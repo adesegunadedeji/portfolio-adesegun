@@ -5,13 +5,13 @@ function FooterComponent (){
             <div className = "Footerdiv">
               <nav className="w-100 centerNav textNav w-50-ns">
                 <div className="third">
-                <Link className="f6" to = "/">home</Link>
+                <Link className="f6" to="/">home</Link>
                 </div>
                 <div className="third">
-                <Link className="f6" to = "/projects">portfolio</Link>
+                <Link className="f6" to="/projects">portfolio</Link>
                 </div>
                 <div className="third">
-                <Link className="f6" to = "/about">about</Link>
+                <Link className="f6" to="/about">about</Link>
                 </div>
                
                 </nav>

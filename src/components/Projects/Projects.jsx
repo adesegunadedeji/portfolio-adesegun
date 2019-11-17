@@ -5,7 +5,6 @@ import MeowWoofImage from './MeowWoof.jpg'
 import Afroleague from './Afroleague.jpg'
 import Vicinage from './Vicinage.jpg'
 import Xapa from './Xapa.jpg'
-import {Link} from 'react-router-dom'
 
 const Projects = (props) => {
   const [activeTab, setActiveTab] = useState('1');
@@ -50,7 +49,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {MeowWoofImage}  className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>MEOWWOOF RESCUE</CardTitle>
-                    <Link to="https://meowwoof-deployed-app.herokuapp.com/">VISIT</Link>
+                    <a className = "aTagLinksabout"href="https://meowwoof-deployed-app.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col> 
@@ -59,7 +58,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Afroleague} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>AFRO LEAGUE</CardTitle>
-                    <Link to="https://afroleagueapp.herokuapp.com/">VISIT</Link>
+                    <a  className = "aTagLinksabout" href="https://afroleagueapp.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col>
@@ -68,7 +67,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Vicinage} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>VICINAGE</CardTitle>
-                    <Link to="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Link>
+                    <a  className = "aTagLinksabout" href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col>
@@ -77,7 +76,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Xapa} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>Xapa</CardTitle>
-                    <Link to="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Link>
+                    <a  className = "aTagLinksabout" href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col>
@@ -91,7 +90,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {MeowWoofImage}  className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>MEOWWOOF RESCUE</CardTitle>
-                 <Link to="https://meowwoof-deployed-app.herokuapp.com/">VISIT</Link>
+                 <a  className = "aTagLinksabout" href ="https://meowwoof-deployed-app.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col> 
@@ -100,7 +99,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Afroleague} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>VICINAGE</CardTitle>
-                    <Link to="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Link>
+                    <a className = "aTagLinksabout" href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col>
@@ -113,7 +112,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Afroleague} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>AFRO LEAGUE</CardTitle>
-                    <Link to = "https://afroleagueapp.herokuapp.com/">VISIT</Link>
+                    <a  className = "aTagLinksabout" href= "https://afroleagueapp.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col>
@@ -123,7 +122,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Xapa} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>XAPA</CardTitle>
-                    <Link to="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Link>
+                    <a  className = "aTagLinksabout"  href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col>

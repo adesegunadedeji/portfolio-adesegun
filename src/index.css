@@ -73,6 +73,12 @@ font-family: 'McLaren', cursive;
 font-size: 1.15em;
 float:initial;
 }
+.aTagLinksabout{
+  font-family: 'McLaren', cursive;
+  font-size: 1.15em;
+align-self: center;
+  color: black;
+}
 .ContactInfolist{
   font-family: 'McLaren', cursive;
   font-size: 1.15em;
@@ -212,7 +218,7 @@ align-content: center;
 }
 
 .PortfolioImage{
-  width: 200px;
+  width: auto;
   height:200px;
 }
 a.nav-link{
