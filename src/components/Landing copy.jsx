@@ -1,8 +1,7 @@
 import React from 'react'
 import { FaLinkedin, FaTwitter, FaInstagram, FaMedium, FaGithub} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
-import { Jumbotron, Button, Container } from 'reactstrap';
-import PictureAdesegun from './About/PictureAdesegun.jpg'
+import { Jumbotron, Container } from 'reactstrap';
 const Landing2 = (props) =>{
         return (
             <div className ="landingPage">

@@ -3,12 +3,11 @@ import './App.css';
 import About from './components/About/About'
 import {Route, Switch, BrowserRouter as Router} from 'react-router-dom'
 import Projects from './components/Projects/Projects';
-import Landing from './components/Landing'
 import Resume from './components/Resume';
 import FooterComponent from './components/Footer/Footer';
 import Landing2 from './components/Landing copy';
 function App() {
-  
+
   return (
     <div className="App">
       <Router>

@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Form, CardBody, CardImg, Button, CardTitle,CardSubtitle, CardText, Row, Col } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Card,CardBody, CardImg, CardTitle, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 import MeowWoofImage from './MeowWoof.jpg'
 import Afroleague from './Afroleague.jpg'
 import Vicinage from './Vicinage.jpg'
 import Xapa from './Xapa.jpg'
+import {Link} from 'react-router-dom'
 
 const Projects = (props) => {
   const [activeTab, setActiveTab] = useState('1');
@@ -49,7 +50,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {MeowWoofImage}  className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>MEOWWOOF RESCUE</CardTitle>
-                    <Button className="PortfolioButton" formaction="https://meowwoof-deployed-app.herokuapp.com/">VISIT</Button>
+                    <Link to="https://meowwoof-deployed-app.herokuapp.com/">VISIT</Link>
                     </CardBody>
                     </Card>
                     </Col> 
@@ -58,7 +59,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Afroleague} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>AFRO LEAGUE</CardTitle>
-                    <Button  className="PortfolioButton" formaction="https://afroleagueapp.herokuapp.com/">VISIT</Button>
+                    <Link to="https://afroleagueapp.herokuapp.com/">VISIT</Link>
                     </CardBody>
                     </Card>
                     </Col>
@@ -67,7 +68,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Vicinage} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>VICINAGE</CardTitle>
-                    <Button className="PortfolioButton" formaction="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Button>
+                    <Link to="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Link>
                     </CardBody>
                     </Card>
                     </Col>
@@ -76,7 +77,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Xapa} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>Xapa</CardTitle>
-                    <Button className="PortfolioButton" formaction="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Button>
+                    <Link to="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Link>
                     </CardBody>
                     </Card>
                     </Col>
@@ -90,7 +91,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {MeowWoofImage}  className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>MEOWWOOF RESCUE</CardTitle>
-                    <Button className="PortfolioButton" formaction="https://meowwoof-deployed-app.herokuapp.com/">VISIT</Button>
+                 <Link to="https://meowwoof-deployed-app.herokuapp.com/">VISIT</Link>
                     </CardBody>
                     </Card>
                     </Col> 
@@ -99,7 +100,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Afroleague} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>VICINAGE</CardTitle>
-                    <Button className="PortfolioButton" formaction="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Button>
+                    <Link to="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Link>
                     </CardBody>
                     </Card>
                     </Col>
@@ -112,7 +113,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Afroleague} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>AFRO LEAGUE</CardTitle>
-                    <Button className="PortfolioButton" formaction="https://afroleagueapp.herokuapp.com/">VISIT</Button>
+                    <Link to = "https://afroleagueapp.herokuapp.com/">VISIT</Link>
                     </CardBody>
                     </Card>
                     </Col>
@@ -122,7 +123,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Xapa} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>XAPA</CardTitle>
-                    <Button className="PortfolioButton" formaction="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Button>
+                    <Link to="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</Link>
                     </CardBody>
                     </Card>
                     </Col>

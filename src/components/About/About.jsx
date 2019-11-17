@@ -1,6 +1,6 @@
 import React from 'react'
 import PictureAdesegun from './PictureAdesegun.jpg'
-import {FaMapMarker, FaEnvelope,FaHome, FaTwitter, FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa'
+import {FaMapMarker, FaEnvelope, FaTwitter, FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa'
 function About (){
     return (
         <div className = "AboutSection">
