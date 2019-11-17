@@ -1,5 +1,7 @@
 import React from 'react'
-import { FaLinkedin, FaTwitter, FaInstagram, FaMedium, FaGithub} from 'react-icons/fa'
+import { FaLinkedin, FaTwitter, FaInstagram, FaMedium, FaGithub, FaReact,} from 'react-icons/fa'
+import { DiRuby, DiRor,DiPostgresql, DiMongodb, DiNodejs} from "react-icons/di";
+
 import {Link} from 'react-router-dom'
 import { Jumbotron, Container } from 'reactstrap';
 const Landing2 = (props) =>{
@@ -54,6 +56,16 @@ const Landing2 = (props) =>{
               </Jumbotron>
 
               <hr class="style18"></hr>
+              <h2 className = "skills">Skills</h2>
+              <div className="skillSection">
+              <hr class="style18"></hr>
+              <DiNodejs className="skillSectionicons"/>
+              <FaReact className="skillSectionicons"/>
+              <DiMongodb className="skillSectionicons"/>
+              <DiRuby className="skillSectionicons"/>
+              <DiRor className="skillSectionicons"/>
+              <DiPostgresql className="skillSectionicons"/>
+              </div>
                 </div>
         );
 
