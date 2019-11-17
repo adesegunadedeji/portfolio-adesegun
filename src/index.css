@@ -279,7 +279,7 @@ hr.style18:before {
 
 
 .jumbotron{
-background-image: url("../src/components/About/Jumbotronimage2.jpg");
-background-size: contain;
+background-color: white;
+background-size: cover;
 
 }
