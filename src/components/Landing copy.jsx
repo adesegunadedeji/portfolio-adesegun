@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaLinkedin, FaTwitter, FaInstagram, FaMedium, FaGithub, FaReact,} from 'react-icons/fa'
-import { DiRuby, DiRor,DiPostgresql, DiMongodb, DiNodejs} from "react-icons/di";
+import { FaLinkedin, FaTwitter, FaInstagram, FaMedium, FaGithub, FaReact, FaNodeJs,} from 'react-icons/fa'
+import { DiRuby, DiRor,DiPostgresql, DiMongodb} from "react-icons/di";
 
 import {Link} from 'react-router-dom'
 import { Jumbotron, Container } from 'reactstrap';
@@ -16,12 +16,10 @@ const Landing2 = (props) =>{
                 </h1>
             </div>
             
-            <div className="Menu">
+            <div  className= "Menu">
                     <ul> 
-                        <li><Link className="aTagLinks" to="/resume">resume</Link></li>
                         <li><Link className="aTagLinks" to="/about">about me</Link></li>
                         <li><Link className="aTagLinks" to="/projects">projects</Link></li>
-                        {/* <a href="https://twitter.com/intent/tweet?screen_name=ade_segun&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @ade_segun</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> */}
                     </ul>
                 </div>
                 <div className ="icons">
@@ -57,9 +55,10 @@ const Landing2 = (props) =>{
 
               <hr class="style18"></hr>
               <h2 className = "skills">Skills</h2>
+            
               <div className="skillSection">
               <hr class="style18"></hr>
-              <DiNodejs className="skillSectionicons"/>
+              <FaNodeJs className="skillSectionicons"/>
               <FaReact className="skillSectionicons"/>
               <DiMongodb className="skillSectionicons"/>
               <DiRuby className="skillSectionicons"/>

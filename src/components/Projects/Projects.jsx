@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Card,CardBody, CardImg, CardTitle, Row, Col } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, CardText, NavLink, Card,CardBody, CardImg, CardTitle, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 import MeowWoofImage from './MeowWoof.jpg'
 import Afroleague from './Afroleague.jpg'
@@ -49,6 +49,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {MeowWoofImage}  className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>MEOWWOOF RESCUE</CardTitle>
+                    <CardText>FullStack App with multi-factor authentication that allows a user to add, modify and delete foster pet’s information from database. This was built using Express.js  and MongoDB.</CardText>
                     <a className = "aTagLinksabout"href="https://meowwoof-deployed-app.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
@@ -58,6 +59,8 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Afroleague} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>AFRO LEAGUE</CardTitle>
+                    <CardText> A Responsive Afrocentric fantasy league app with that gives users access to their favorite players and team’s statistics. This was built using technologies like React and Ruby on Rails.
+                    </CardText>
                     <a  className = "aTagLinksabout" href="https://afroleagueapp.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
@@ -67,6 +70,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Vicinage} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>VICINAGE</CardTitle>
+                    <CardText> Online real-estate application with multi-factor authentication  that allows property owners and renters manage their electronic records and digital assets using React and MongoDB.</CardText>
                     <a  className = "aTagLinksabout" href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
@@ -76,6 +80,8 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Xapa} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>Xapa</CardTitle>
+                    <CardText> Business directory application that allows  small businesses promote their businesses to their target audience using their location as a parameter. 
+This was built using React-Redux and Ruby on Rails.</CardText>
                     <a  className = "aTagLinksabout" href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
@@ -90,6 +96,7 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {MeowWoofImage}  className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>MEOWWOOF RESCUE</CardTitle>
+                    <CardText>FullStack App with multi-factor authentication that allows a user to add, modify and delete foster pet’s information from database. This was built using Express.js  and MongoDB.</CardText>
                  <a  className = "aTagLinksabout" href ="https://meowwoof-deployed-app.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
@@ -97,8 +104,9 @@ const Projects = (props) => {
           <Col sm ="3">
                 <Card>
                 <CardBody>
-                    <CardImg src= {Afroleague} className = "PortfolioImage" alt="Card image cap" />
+                    <CardImg src= {Vicinage} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>VICINAGE</CardTitle>
+                    <CardText> Online real-estate application with multi-factor authentication  that allows property owners and renters manage their electronic records and digital assets using React and MongoDB.</CardText>
                     <a className = "aTagLinksabout" href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
@@ -112,6 +120,8 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Afroleague} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>AFRO LEAGUE</CardTitle>
+                    <CardText> A Responsive Afrocentric fantasy league app with that gives users access to their favorite players and team’s statistics. This was built using technologies like React and Ruby on Rails.
+                    </CardText>
                     <a  className = "aTagLinksabout" href= "https://afroleagueapp.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
@@ -122,6 +132,8 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {Xapa} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>XAPA</CardTitle>
+                    <CardText> Business directory application that allows  small businesses promote their businesses to their target audience using their location as a parameter. 
+This was built using React-Redux and Ruby on Rails.</CardText>
                     <a  className = "aTagLinksabout"  href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>

@@ -53,7 +53,6 @@ span.myButton{
   margin-left: 2em;
 }
 
-
 .Menu{
   margin-left: 1em;
 }
@@ -300,8 +299,8 @@ background-size: cover;
   font-family: 'McLaren', cursive;
 }
 .skillSectionicons{
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   margin: 30px 50px 75px 100px;
 }
 .skillSectionicons:hover{
@@ -315,4 +314,16 @@ background-size: cover;
  float: left;
  }  */
 
+button.btn.btn-green{
+  margin: 0px 0px 0px 0px;
+  font-family: 'McLaren', cursive;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
 
+p.card-text{
+  font-family: 'McLaren', cursive;
+  color: black;
+  font-size: 10px;;
+}

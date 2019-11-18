@@ -1,6 +1,7 @@
 import React from 'react'
 import PictureAdesegun from './PictureAdesegun.jpg'
-import {FaMapMarker, FaEnvelope, FaTwitter, FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa'
+import ResumeDownload from '../About/ResumeAdesegun_GA.pdf';
+import {FaMapMarker, FaEnvelope, FaTwitter, FaInstagram, FaLinkedin, FaGithub, FaFileDownload} from 'react-icons/fa'
 function About (){
     return (
         <div className = "AboutSection">
@@ -18,6 +19,7 @@ function About (){
                 <li className="ContactInfolist"><a  className="aTagLinksInstagram"  href ="https://www.instagram.com/de_segun/"><FaInstagram alt="Instagram"/>Instagram</a></li>
                 <li className="ContactInfolist"><a  className="aTagLinks"  href ="https://www.linkedin.com/in/adesegunadedeji/" ><FaLinkedin alt="Linkedin"/>Linkedin</a></li>
                 <li className="ContactInfolist"><a  className="aTagLinks"  href ="https://github.com/adesegunadedeji" ><FaGithub alt="Github"/>Github</a></li>
+                <li className="ContactInfolist"> <a  className="aTagLinks" href={ResumeDownload} download="AdesegunAdedeji.pdf"> <FaFileDownload alt="Download"/>Download Resume</a></li>
                 <li className="ContactInfolist"><FaEnvelope/>adesegunadedeji@gmail.com</li>
             </ul>
 
