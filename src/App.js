@@ -5,6 +5,7 @@ import MainInfo from './components/mainInfo';
 import Projects from './components/projects'
 import { About } from './components/about';
 import { Skills } from './components/skills';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
    <About/>
    <Projects/>
    <Skills/>
+   <Contact/>
    <footer>
      <hr></hr>
      <p>2020 Copryright. All Rights Reserved</p>
