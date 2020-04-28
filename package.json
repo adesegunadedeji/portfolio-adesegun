@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "react": "^16.10.2",
-    "react-bootstrap": "^1.0.0-beta.12",
-    "react-dom": "^16.10.2",
-    "react-icons": "^3.7.0",
+    "bootstrap": "^4.4.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
     "react-pdf": "^4.1.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.1.1",
-    "reactstrap": "^8.0.1",
-    "social-logos": "^2.1.0"
+    "react-scripts": "^3.4.1",
+    "reactstrap": "^8.4.1",
+    "social-logos": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
