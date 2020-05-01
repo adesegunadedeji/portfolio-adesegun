@@ -1,8 +1,11 @@
 import React from 'react';
+
+import styles from './MainInfo.module.css';
+
 export default function MainInfo(){
 
 return (
-  <div className ="container main-info-section">
+  <div className = {styles.main_info}>
     <div className="text">
         <h1>
             <span>H</span>
@@ -12,6 +15,7 @@ return (
             <span>I</span>
             <span className="m-left">'</span>
             <span className="m-left">m</span>
+            <span className="m-left"> </span>
             <span className="name">A</span>
             <span className="m-left name">d</span>
             <span className="m-left name">e</span>
@@ -25,6 +29,7 @@ return (
         <span className="m-left">a</span>
         <span className="m-left">c</span>
         <span className="m-left">k</span>
+        <span className="m-left"> </span>
         <span>D</span>
         <span className="m-left">e</span>
         <span className="m-left">v</span>

@@ -1,24 +1,21 @@
 import React from 'react';
-import './App.css';
-import Navbar from './components/navbar';
-import MainInfo from './components/mainInfo';
-import Projects from './components/projects'
-import { About } from './components/about';
-import { Skills } from './components/skills';
-import Contact from './components/contact';
+import Navbar from './components/Navbar/Navbar';
+import MainInfo from './components/MainInfo/MainInfo';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import styles from './App.module.css';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
-    <div className="App">
-   <Navbar/>
-   <MainInfo/>
-   <About/>
-   <Projects/>
-   <Skills/>
-   <Contact/>
+    <div className= {styles.container}>
+      <Navbar/>
+     <About/>
+      <Projects/>
+      <Contact/> 
    <footer>
      <hr></hr>
-     <p>2020 Copryright. All Rights Reserved</p>
+     <p>  Ade Adedeji |{'Copyright © '} |{new Date().getFullYear()}</p>
    </footer>
     </div>
   );
