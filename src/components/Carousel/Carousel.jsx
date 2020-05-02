@@ -1,4 +1,10 @@
 import React, {Component} from 'react';
+import {Container, Row} from 'react-bootstrap';
+import Card from './Card';
+import meowwoof from './images/dog-layout.png';
+import covidImage from './images/covid.png';
+import chatbox from './images/Chatbox.png';
+
 
 class Carousel extends Component{
     constructor(props){
@@ -7,23 +13,26 @@ class Carousel extends Component{
             items: [
                 {
                 id: 0,
-                title: 'Giphy Web App',
-                subTitle: 'Giphy Search Application',
-                link: 'https://giphy.com/',
+                title: 'Meow Woof',
+                imgSrc: meowwoof,
+                subTitle: 'Pet Adoption Web Application',
+                link: 'https://meowwoof-deployed-app.herokuapp.com',
                 selected: false
             },
             {
                 id: 1,
                 title: 'Covid Tracker',
-                subTitle: 'Covid-19 Data Analytics Application',
-                link: 'https://giphy.com/',
+                imgSrc: covidImage,
+                subTitle: 'Covid 19 Data tracking Application',
+                link: 'https://covid19trackingnaijadev.herokuapp.com',
                 selected: false
             },
             {
                 id: 2,
                 title: 'ChatBox',
+                imgSrc: chatbox,
                 subTitle: 'React chat Application built with socket.io',
-                link: 'https://giphy.com/',
+                link: 'http://fast-mesa-64631.herokuapp.com/',
                 selected: false
             }
 
@@ -31,16 +40,38 @@ class Carousel extends Component{
         }
     }
 
-    handleCardSelector = ()=>{
-
+    handleCardSelector = (id)=>{
+        console.log(id, "Comig from Carousel")
+        let items = [...this.state.items]
+        items[id].selected  = items[id].selected? false: true;
+        items.forEach( item => {
+            if (item.id !==id){
+                item.selected = false;
+            }
+        })
+        this.setState({
+            items
+        })
     }
 
-    render(){
 
+    createItems = (items)=>{
+        return items.map(item =>{
+            return <Card item= {item} handleClick = {(
+                e => this.handleCardSelector(item.id,e)
+            )} key={item.id}/>
+        })
+
+    }
+    
+    render(){
     return(
-        <div>
-            <h1>Carousel is showing</h1>
-        </div>
+       <Container fluid={true}>
+           <Row className= "justify-content-around">
+               {this.createItems(this.state.items)}
+           </Row>
+
+       </Container>
     )
 }
 }

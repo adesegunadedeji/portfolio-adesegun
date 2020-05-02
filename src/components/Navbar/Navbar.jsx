@@ -11,7 +11,8 @@ function Navbar(){
                 <ul className={styles.nav_links}>
                     <li ><Link to="/about">about</Link></li>
                     <li><Link to="/skills">blog</Link></li>
-                    <li><Link to="/work">projects</Link></li>
+                    <li><a href="/work">projects</a></li>
+                    <li><a href="mailto:adesegunadedeji@gmail.com">contact</a></li>
                 </ul>
             </nav>
             {/* <Link to="/contact"><button className={styles.navButton}>contact me</button></Link> */}

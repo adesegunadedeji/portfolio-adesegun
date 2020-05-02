@@ -30,11 +30,6 @@ export default function Projects(){
     return (
         <div className={cx(styles.container, styles.work)} id="work">
             <h1>Work</h1>
-            <div className={styles.work_category}>
-                <button id="react-project" className={styles.active}>react projects</button>
-                <button id="animation">Thoughts</button>
-                <button id="java-project" className={styles.active}>java projects</button>
-            </div>
               <Carousel/>
         </div>
     )
