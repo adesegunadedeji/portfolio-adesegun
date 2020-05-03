@@ -3,19 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.9.12",
-    "bootstrap": "^4.4.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.0",
     "classnames": "^2.2.6",
-    "react": "^16.13.1",
-    "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.13.1",
-    "react-icons": "^3.10.0",
-    "react-pdf": "^4.1.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1",
-    "react-spring": "^8.0.27",
-    "reactstrap": "^8.4.1",
-    "social-logos": "^2.1.2"
+    "react-spring": "^8.0.27"
   },
   "scripts": {
     "start": "react-scripts start",

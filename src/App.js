@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
-import MainInfo from './components/MainInfo/MainInfo';
+import {Route, Switch,} from 'react-router-dom'
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import styles from './App.module.css';
@@ -10,9 +10,9 @@ function App() {
   return (
     <div className= {styles.container}>
       <Navbar/>
-     <About/>
+      <About/>
       <Projects/>
-      <Contact/> 
+      <Contact/>
    <footer>
      <hr></hr>
      <p>  Ade Adedeji |{'Copyright © '} |{new Date().getFullYear()}</p>

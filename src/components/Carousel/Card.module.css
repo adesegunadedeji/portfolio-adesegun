@@ -15,14 +15,39 @@
     color:  #edf0f1 !important;
 }
 
+.view_link:hover{
+color: #0088a9;
+}
+
 .grabCard_info{
+    text-align: center;
     margin-top: 10px;
     min-height: 100px;
 }
 
 .grabCard_subTitle{
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     color:  #edf0f1 !important;
-    font-size: 16px;
     margin: 0px;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+
+    .grabCard_title{
+        margin: 0px;
+        font-size: 1.1rem !important;
+        color:  #edf0f1 !important;
+    }
+    .grabCard_subTitle{
+        font-size: 0.9rem !important;
+        color:  #edf0f1 !important;
+        margin: 0px;
+    }
+
+
+
+
 }

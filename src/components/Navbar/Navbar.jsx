@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link}  from  'react-router-dom';
 import styles from './Navbar.module.css';
 
 function Navbar(){
@@ -9,10 +8,11 @@ function Navbar(){
                 <h1>Adesegun</h1>
             <nav>
                 <ul className={styles.nav_links}>
-                    <li ><Link to="/about">about</Link></li>
-                    <li><Link to="/skills">blog</Link></li>
-                    <li><a href="/work">projects</a></li>
-                    <li><a href="mailto:adesegunadedeji@gmail.com">contact</a></li>
+                    <li ><a href="#about">about</a></li>
+                    <li><a href="https://medium.com/@adesegunadedeji">blog</a></li>
+                    <li><a href="#work">projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    {/* <li><a href="mailto:adesegunadedeji@gmail.com">contact</a></li> */}
                 </ul>
             </nav>
             {/* <Link to="/contact"><button className={styles.navButton}>contact me</button></Link> */}

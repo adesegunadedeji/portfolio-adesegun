@@ -12,7 +12,7 @@ export default function CardInfo(props){
       <animated.div className={styles.grabCard_info} style={style}>
           <p className={styles.grabCard_title}>{props.title}</p>
           <p className={styles.grabCard_subTitle}>{props.subTitle}</p>
-          <a href={props.link} target="_blank" rel="noopener noreferrere">View</a>
+          <a href={props.link} target="_blank" rel="noopener noreferrere" className={styles.view_link}>View</a>
       </animated.div>
     )
 }
